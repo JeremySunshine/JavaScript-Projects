@@ -1,6 +1,6 @@
 function Vote_Function() { //Requires input from user to see if they can vote  //
     var age, Can_Vote;
-    Height = document.getElementById("age").value;
+    age = document.getElementById("age").value;
     Can_Vote = (age > 18) ? "You are too young to vote": "You are old enough to vote";
     document.getElementById("vote").innerHTML = Can_Vote + " Can Vote.";
 
