@@ -8,7 +8,7 @@ console.log(19 > 40);// shows false in console log //
 
 document.write(typeof "Word") ;
 
-function not_Funtion() {
+function not_Function() {
     document.getElementById("not").innerHTML = !(20 > 10 ); // Not Operator //
 }
 
@@ -21,3 +21,11 @@ Y = 100; // makes 100 equal Y//
 document.write(X === Y);
 
 document.write(3 == 22);// returns false // 
+
+function greater_Than() {
+    document.getElementById("greater").innerHTML = (20 < 30);
+}
+
+function car_Function() {
+    document.getElementById("car").innerHTML = ("Mustang" + 2012);
+}
