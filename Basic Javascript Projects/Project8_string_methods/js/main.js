@@ -4,9 +4,9 @@ function slice_Method() { // Slice method //
     document.getElementById("Slice").innerHTML = Section;
 }
 
-function string_Method() { // string method //
-    var X = 182;
-    document.getElementById("Numbers_to_string").innerHTML = X.toString();
+function string_Method() {
+    var X =182;
+    document.getElementById("Number_to_string").innerHTML = X.toString();
 }
 
 function precision_Method() { // precision method //
