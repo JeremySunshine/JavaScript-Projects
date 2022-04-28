@@ -44,22 +44,22 @@ let car = {
     description : function() {
         return "The car is a " + this.year + this.color + this.make + this.model;    
     }
-};
+}
 document.getElementById("Car_Object").innerHTML = car.description();
 
 
 
 // while loop //
 
-function while_Loop(){
-let text = "";
+function while_Loop() {
+    let text = "";
 let i = 0;
 while (i < 10) {
-    text += "<br>The number is " + i;
-    i++;
-    }
+  text += "<br>The number is " + i;
+  i++;
 }
 document.getElementById("while").innerHTML = text;
+}
 
 
 
