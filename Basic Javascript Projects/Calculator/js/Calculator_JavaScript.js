@@ -88,9 +88,6 @@ const Calculator = {
     }
 
     Update_Display();
-    // tHIS SECTION MONITORS BUTTON CLICKS
-    const keys = document.querySelector('.calculator-keys');
-    keys.addEventListener('click', (event)) {
         // TARGET VARIABLE IS AN OBJECT THAT REPRESENTS THE ELEMENT
         // THAT WAS CLICKED Update_Display();
     // tHIS SECTION MONITORS BUTTON CLICKS
@@ -123,4 +120,4 @@ const Calculator = {
         Input_Digit(target.value);
         Update_Display();
     })
-}
+

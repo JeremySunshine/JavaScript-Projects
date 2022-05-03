@@ -124,7 +124,7 @@ let selectedSquares = [];
          //retuned and our else if condiiton executes the darwWinLine function
          if (a === true && b === true && c === true) { return true}
      }
-
+    }
 
 
      //this funtin makes our body element temp unclickable
@@ -234,7 +234,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
 
 
 
- }
+ 
 
 
  
