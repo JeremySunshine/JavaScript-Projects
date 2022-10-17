@@ -1,6 +1,9 @@
 <h1> JavaScript Projects </h1>
 <p> Throuhout the course i have created several small projects! Please take a look!
 
+<h3> Languages Used </h3>
+<p> HTML5, JavaScript, CSS
+
   
   <h2> Projects </h2>
   
@@ -13,7 +16,7 @@
   
   <h2> Pizza Menu </h2>
   <hr>
-  <p> This project was to design a functional pizza website that, the user could input what type of size of pizza and toopings they would want, then the order and total will be displayed as a result of the userclicking Place Order.
+  <p> This project was to design a functional pizza website that, the user could input what type of size of pizza and toopings they would want, then the order and total will be displayed as a result of the user clicking Place Order. 
   
   
   
@@ -24,5 +27,5 @@
   
   <h2>Calculator</h2>
   <hr>
-  <p> A basic Calculator Project that does the basic four functions. </p>
+  <p> A basic Calculator Project that does the basic four functions and returns the value to the user. </p>
   
