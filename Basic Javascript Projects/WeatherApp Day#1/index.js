@@ -5,13 +5,13 @@ const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () =>{
-    const APIKey = 'f0d94e22538b2965f9a9549561c0f710';
+    const APIKey = '88c1aa6d8b7f235334b6c7e347082311';
     const city = document.querySelector('.search-box').value;
 
     if(city === '')
     return;
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=${city}&units=mertic&appid=${f0d94e22538b2965f9a9549561c0f710}').then(response => response.json()).then(json => {
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=mertic&appid=${APIKey}`).then(response => response.json()).then(json => {
 
     if(json.cod === '404'){
         container.style.height = '400px';
