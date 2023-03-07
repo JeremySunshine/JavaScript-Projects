@@ -11,6 +11,7 @@
     <li> Pizza Menu </li>
     <li> Tic-Tac-Toe Game</li>
     <li> Calculator </li>
+    <li> Weather Application</li>
   </ul>
   
   
@@ -28,4 +29,8 @@
   <h2>Calculator</h2>
   <hr>
   <p> A basic Calculator Project that does the basic four functions and returns the value to the user. </p>
+  
+  <h2>Weather Application</h2>
+  <hr>
+  <p> An application that will tell you what the current weather is for a location you search</p>
   
